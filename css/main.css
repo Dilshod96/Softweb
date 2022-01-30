@@ -1,0 +1,94 @@
+html,body,header, #intro {
+  height: 101%;
+}
+
+@media (max-width: 770px) {
+  html,body,header, #intro {
+   height: 125%;
+  }
+}
+
+#intro {
+  background: url(../img/bg.jpg)
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+@media (max-width: 755px) {
+  .myimg {
+    width: 300px !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .myimg {
+    width: 300px !important;
+  }
+}
+
+.big_box {
+  transition: ease 0.50s !important;
+}
+
+.big_box:hover {
+  filter: brightness(1.20) !important;
+}
+
+.small_box {
+  border-radius: 5px;
+  transition: ease 1s !important;
+  box-shadow: inset 0px 0px 10px 0px white;
+  background-color: transparent !important;
+}
+
+.small_box:hover {
+  background-color:
+  rgba(0, 0,0, 0.30)!important;
+  box-shadow: 0px 0px 30px 5px indigo !important;
+}
+
+.icons {
+  width: 15px;
+  border-radius: 50%;
+  vertical-align: -2px;
+}
+
+.logo {
+  width: 40px;
+  padding: 2px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 0px silver;
+  -webkit-animation: move 0.80s infinite;
+  animation: move 0.80s infinite;
+}
+
+@-webkit-keyframes move {
+  from {background-color: white;}
+  to {background-color: transparent;}
+}
+
+@keyframes move {
+  from {background-color: white;}
+  to {background-color: transparent;}
+}
+
+.myimg {
+  box-shadow: 0px 0px 20px 0px white;
+  border: solid 1px lightgreen;
+  border-radius: 50%;
+}
+
+.mybtn {
+  transition: 1s ease;
+  letter-spacing: 1px;
+  color: white !important;
+  margin: auto !important;
+  margin-bottom: 6px !important;
+  border-radius: 10px !important;
+  box-shadow: inset 0px 0px 5px 0px white;
+}
+
+.mybtn:hover {
+  box-shadow: inset 0px 0px 5px 0px blue;
+}

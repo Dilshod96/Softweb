@@ -1,0 +1,138 @@
+html,body,header, #intro, #resume, #bgcent{
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+#intro {
+  background: url(../img/bg.png)
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.bgcent {
+  background: url(../img/bc.png)
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+.info {
+  color: silver;
+}
+
+.top-nav-collapse {
+ background-color: #012C !important;
+  box-shadow: 0px 0px 10px 0px indigo;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse){
+  background-color:
+  rgba(0, 0,0, 0.90)!important;
+  }
+}
+
+@media (max-width: 768px) {
+  .dbig {
+    display: none;
+  }
+}
+
+@media (min-width: 770px) {
+  .dsmall {
+    display: none;
+  }
+}
+
+.nav-link {
+  padding: 0px;
+  border-radius: 6px;
+  transition: ease 0.50s;
+  color: white !important;
+  border: solid 1px transparent;
+}
+
+.nav-link:hover {
+  border: solid 1px;
+  color: lightblue !important;
+}
+
+.txttitle {
+  color: white;
+  font-size: 30px;
+  font-weight: 100;
+
+}
+.txtinfo {
+  color: white;
+  font-size: 22px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.card_big {
+  text-align: center;
+  box-shadow: 0 1rem 2rem rgba(80, 80, 80, 0.1) !important;
+}
+
+.btn:hover {
+  color: gold !important;
+  background-color: transparent;
+  border: solid 1px !important;
+}
+
+.logo {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.box {
+  transition: 0.50s ease;
+  box-shadow: 0px 0px 10px 0px black;
+}
+
+.box:hover {
+  box-shadow: 0px 0px 20px 0px indigo;
+  filter: brightness(1.50) !important;
+}
+
+.icons {
+  width: 15px;
+  border-radius: 50%;
+  vertical-align: -2px;
+}
+
+.social {
+  width: 25px;
+  border-radius: 50%;
+  border: solid 1px indigo;
+  margin: 0px 2px !important;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+
+
